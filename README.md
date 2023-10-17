@@ -38,5 +38,5 @@
    curl --location --request POST 'localhost:8080/banking/withdraw' --header 'Content-Type: application/json' --data-raw '{ "withdrawAmount": 0.5, "userId": "mandeep.kaur@gmail.com" }'
    
 ### MockMVC Testing
-   To run MockMVC tests, use the following command
+   To run MockMVC tests, use the following command:
    mvn test
